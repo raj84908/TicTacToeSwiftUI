@@ -14,6 +14,8 @@
 		35C23B962BADD58F0013A312 /* TicTacToeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C23B952BADD58F0013A312 /* TicTacToeSwiftUITests.swift */; };
 		35C23BA02BADD58F0013A312 /* TicTacToeSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C23B9F2BADD58F0013A312 /* TicTacToeSwiftUIUITests.swift */; };
 		35C23BA22BADD58F0013A312 /* TicTacToeSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C23BA12BADD58F0013A312 /* TicTacToeSwiftUIUITestsLaunchTests.swift */; };
+		35C23BAF2BADD5D50013A312 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C23BAE2BADD5D50013A312 /* Cell.swift */; };
+		35C23BB12BADDF3A0013A312 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C23BB02BADDF3A0013A312 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		35C23B9B2BADD58F0013A312 /* TicTacToeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C23B9F2BADD58F0013A312 /* TicTacToeSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeSwiftUIUITests.swift; sourceTree = "<group>"; };
 		35C23BA12BADD58F0013A312 /* TicTacToeSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		35C23BAE2BADD5D50013A312 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		35C23BB02BADDF3A0013A312 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				35C23B832BADD58E0013A312 /* TicTacToeSwiftUIApp.swift */,
 				35C23B852BADD58E0013A312 /* ContentView.swift */,
+				35C23BB02BADDF3A0013A312 /* GameState.swift */,
+				35C23BAE2BADD5D50013A312 /* Cell.swift */,
 				35C23B872BADD58F0013A312 /* Assets.xcassets */,
 				35C23B892BADD58F0013A312 /* TicTacToeSwiftUI.entitlements */,
 				35C23B8A2BADD58F0013A312 /* Preview Content */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				35C23B862BADD58E0013A312 /* ContentView.swift in Sources */,
+				35C23BB12BADDF3A0013A312 /* GameState.swift in Sources */,
 				35C23B842BADD58E0013A312 /* TicTacToeSwiftUIApp.swift in Sources */,
+				35C23BAF2BADD5D50013A312 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
